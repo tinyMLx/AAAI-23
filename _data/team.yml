@@ -1,0 +1,20 @@
+people:
+  - name: "Shawn Hymel"
+    affiliation:
+      role: "Senior DevRel Engineer"
+      org_name: "Edge Impulse"
+      url: "https://www.edgeimpulse.com/"
+    website:
+      title: "shawnhymel.com"
+      url: "https://shawnhymel.com/"
+    image_url: "/assets/team/shawn.jpeg"
+
+  - name: "Brian Plancher"
+    affiliation:
+      role: "Assistant Professor"
+      org_name: "Barnard College, Columbia University"
+      url: "https://barnard.edu/"
+    website:
+      title: "brianplancher.com"
+      url: "https://brianplancher.com/"
+    image_url: "/assets/team/brian.jpg"

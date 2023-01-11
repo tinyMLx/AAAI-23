@@ -1,0 +1,58 @@
+headers:
+ - "Time"
+ - "Topic"
+ - "Materials"
+
+items:
+  - name: "Introduction to Embedded ML"
+    time: "8:30:00 AM"
+    links:
+      - title: "Slides"
+        url: "https://docs.google.com/presentation/d/1g-xQJoRrr2oeCmTRqQHh53lA0rHIiJmloQrIiyT90p8"
+  - name: "Hands-on Image Data Collection"
+    time: "8:45:00 AM"
+    links:
+      - title: "Instructions and Code"
+        url: "https://github.com/edgeimpulse/workshop-arduino-tinyml-roshambo"
+  - name: "(Hands-on) Image Data Augmentation"
+    time: "9:30:00 AM"
+    links:
+      - title: "Instructions and Code"
+        url: "https://github.com/edgeimpulse/workshop-arduino-tinyml-roshambo"
+  - name: "Hands-on Model Training in Edge Impulse"
+    time: "9:50:00 AM"
+    links:
+      - title: "Instructions and Code"
+        url: "https://github.com/edgeimpulse/workshop-arduino-tinyml-roshambo"
+  - name: "Computer Vision 102"
+    time: "10:00:00 AM"
+    links:
+      - title: "Slides"
+        url: "https://docs.google.com/presentation/d/1QVfA__HTtuIQXUcfmYxQ-SrKF4r0N9CwJ6_3vD8THSk/"
+  - name: "Break"
+    time: "10:30:00 AM"
+    italics: true
+  - name: "Hands-on Model Deployment"
+    time: "10:50:00 PM"
+    links:
+      - title: "Instructions and Code"
+        url: "https://github.com/edgeimpulse/workshop-arduino-tinyml-roshambo"
+  - name: "TinyML Optimizations and Next Steps"
+    time: "11:25:00 AM"
+    links:
+      - title: "Slides"
+        url: "https://docs.google.com/presentation/d/1nf5TnT-jhgTuFjwd4bGv6sJztp1thxgNKT_Oows7jxM"
+  - name: "Hands-on Using Model Outputs"
+    time: "11:50:00 AM"
+    links:
+      - title: "Instructions and Code"
+        url: "https://github.com/edgeimpulse/workshop-arduino-tinyml-roshambo"
+  - name: "Session Closing"
+    time: "12:20:00 PM"
+    # links:
+    #   - title: "Slides"
+    #     url: "/assets/slides/TBD.pdf"
+    #     local: "1"
+    #     related_to_next: ""
+    #   - title: "Video"
+    #     url: "TBD"

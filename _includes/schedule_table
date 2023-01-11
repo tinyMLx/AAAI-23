@@ -1,0 +1,24 @@
+{% if include.table_data %}
+<table>
+  <thead>
+    <tr>
+      {% for header in include.table_data.headers %}
+      <th>{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in include.table_data.items %}
+    <tr>
+      <td><div class="GMT_TIME">{{ item.time }}</div></td>
+      <td>{% if item.italics %}<i>{% endif %}{{ item.name }}{% if item.italics %}</i>{% endif %}</td>
+      <td><div style="max-width:350px;">
+          {% for link in item.links %}
+            <a href="{% if link.local %}{{ site.baseurl }}{% endif %}{{ link.url }}">{{ link.title }}</a>{% if forloop.last == false %} | {% endif %}
+          {% endfor %}
+      </div></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
