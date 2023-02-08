@@ -37,9 +37,15 @@ Attendees should have an interest in finding ways to make ML easier and approach
   // all times
   var timeElements = document.getElementsByClassName("GMT_TIME");
   for (var i = 0; i < timeElements.length; i++) {
-    dateStr = '02/08//2021 ' + timeElements[i].innerHTML + ' EST'
+    dateStr = '02/08//2021 ' + timeElements[i].innerHTML + ' EST';
     var gmt_time = new Date(dateStr);
-    timeElements[i].innerHTML = gmt_time.toLocaleTimeString([], {timeStyle: 'short'})
+    if (isNaN(gmt_time)) { // d.getTime() or d.valueOf() will also work
+      // date object is not valid so add timezone note
+      timeElements[i].innerHTML = timeElements[i].innerHTML + ' EST';
+    } else {
+      // date object is valid so convert to local time
+      timeElements[i].innerHTML = gmt_time.toLocaleTimeString([], {timeStyle: 'short'});
+    }
   }
 </script>
 
